@@ -15,7 +15,7 @@
 
 ### 🏆 GitHub Trophies
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=adrijimcab&theme=tokyonight&no-frame=false&margin-w=15&no-bg=true" alt="adrijimcab trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=adrijimcab&theme=tokyonight" alt="adrijimcab trophies" />
 </p>
 
 ---
@@ -45,12 +45,13 @@
 </div>
 
 <p align="center">
-  <img src="https://github.com/adrijimcab/adrijimcab/blob/metrics/github-metrics.svg" alt="Activity Radar" width="100%">
+  <img src="https://github.com/adrijimcab/adrijimcab/raw/main/github-metrics.svg" alt="Activity Radar" width="100%">
 </p>
 
 ---
 
 <p align="center">
+  <br>
   <i>"Complexity is the enemy of execution. I build tools that make the complex visible."</i>
   <br>
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Quotes" />
