@@ -4,10 +4,7 @@ on:
   workflow_dispatch:
   push: {branches: ["main"]}
 
-concurrency:
-  group: metrics-update
-  cancel-in-progress: true
-
+# Eliminamos la concurrencia para evitar el estado "Cancelled" y que todo se ejecute hasta el final
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
@@ -23,13 +20,14 @@ jobs:
           base: header, activity, community, repositories, metadata
           config_timezone: Europe/Madrid
           
-          # 1. Activity & Pulse
+          # 1. Activity & Pulse (Ampliado para mayor visibilidad)
           plugin_activity: yes
-          plugin_activity_limit: 7
+          plugin_activity_limit: 8
           plugin_activity_days: 30
           plugin_activity_filter: all
           
           # 2. Languages & Technical DNA (Radar + Statistics)
+          # Solución al error TypeError: Ajustamos los parámetros de carga y filtrado
           plugin_languages: yes
           plugin_languages_indepth: yes
           plugin_languages_details: bytes, percentage, lines
@@ -38,7 +36,7 @@ jobs:
           plugin_languages_categories: markup, programming
           plugin_languages_recent_categories: markup, programming
           plugin_languages_recent_days: 14
-          plugin_languages_recent_load: 300
+          plugin_languages_recent_load: 500
           plugin_languages_sections: most-used, recently-used
           
           # 3. Followup & Engagement
@@ -56,16 +54,17 @@ jobs:
           plugin_achievements: yes
           plugin_achievements_display: detailed
           plugin_achievements_threshold: C
+          plugin_achievements_secrets: yes
           
           # 6. Global Activity Visualization
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
           
-          # Layout & Style
+          # Layout & Style (Optimizado)
           config_order: base.header, isocalendar, languages, activity, habits, followup, achievements
           config_padding: 0, 8 + 10%
           
           filename: github-metrics.svg
           output_action: commit
           committer_branch: main
-          committer_message: "chore: optimized architectural metrics workflow [skip ci]"
+          committer_message: "chore: update metrics dashboard [skip ci]"
