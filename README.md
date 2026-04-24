@@ -13,6 +13,13 @@
 
 ---
 
+### 🏆 GitHub Trophies
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=adrijimcab&theme=tokyonight&no-frame=true&margin-w=15" alt="adrijimcab trophies" />
+</p>
+
+---
+
 ### 🏛️ AI Solutions Architect & Full Stack Expert
 I specialize in designing and orchestrating high-fidelity **AI Agent ecosystems**. My mission is to bridge the gap between complex business logic and intuitive, professional visual architecture.
 
@@ -54,7 +61,7 @@ I specialize in designing and orchestrating high-fidelity **AI Agent ecosystems*
 
 ---
 
-### 📊 GitHub Stats & Achievements
+### 📊 GitHub Stats & Activity
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=adrijimcab&show_icons=true&theme=tokyonight&count_private=true&hide_border=true" alt="Github Stats" />
   <br/>
