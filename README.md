@@ -20,8 +20,41 @@
 
 ---
 
-### 🏛️ AI Solutions Architect & Full Stack Expert
-I specialize in designing and orchestrating high-fidelity **AI Agent ecosystems**. My mission is to bridge the gap between complex business logic and intuitive, professional visual architecture.
+### 🏢 Featured Organizations
+<table align="center">
+  <tr>
+    <td align="center" width="100%">
+      <a href="https://github.com/frontendcraftsman">
+        <img src="https://img.shields.io/badge/Frontend--Craftsman-white?style=for-the-badge&logo=github&logoColor=black" height="35" />
+      </a>
+      <br><i>Leading the future of frontend development architectures.</i>
+    </td>
+  </tr>
+</table>
+
+---
+
+### 🚀 Here are some things I built for you.
+
+#### **Core Projects**
+| Project | What it does | Status |
+| :--- | :--- | :---: |
+| **[Marta Showcase](https://github.com/adrijimcab/marta-showcase)** | Full-stack ecommerce platform built with Angular, NestJS & Supabase. | 🟢 Live |
+| **[Adrii-docs](https://github.com/adrijimcab/adrii-docs)** | Personal knowledge base and documentation system for architects. | 🔵 Docs |
+
+#### **Specialized Tools & SDKs**
+| Project | Description | Tech |
+| :--- | :--- | :---: |
+| **Fury SDK** | A high-performance toolkit for developer productivity. | Go / Rust |
+| **Spotify CLI** | Control your music and agent's mood from the terminal. | Node.js |
+| **DropVR** | The "Airdrop" for everything, reimagined for VR environments. | C# / Unity |
+
+#### **Experimental & AI Lab**
+| Project | Description | Area |
+| :--- | :--- | :---: |
+| **Whisper Browser** | Automatic Speech Recognition (ASR) running entirely in the browser. | WebAssembly |
+| **Face Recognition** | High-fidelity facial detection and recognition engine. | Python / CV |
+| **Image Clustering** | Unsupervised learning for large-scale image organization. | ML |
 
 ---
 
@@ -50,14 +83,6 @@ I specialize in designing and orchestrating high-fidelity **AI Agent ecosystems*
     </td>
   </tr>
 </table>
-
----
-
-### 🔥 Featured Projects
-| Project | What it does | Link |
-| :--- | :--- | :---: |
-| **Marta Showcase** | Full-stack ecommerce platform built with Angular, NestJS & Supabase. | [View Repo](https://github.com/adrijimcab/marta-showcase) |
-| **Frontend Craftsman** | Leading the future of frontend development architectures. | [Organization](https://github.com/frontendcraftsman) |
 
 ---
 
