@@ -18,29 +18,32 @@ jobs:
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: Europe/Madrid
-          config_erronly: yes
           
-          # 1. Activity & Pulse (Blindado: solo eventos públicos para estabilidad)
+          # Solución a errores visuales: Forzamos la carga de datos privados y aumentamos límites
+          config_order: base.header, isocalendar, languages, activity, habits, followup, achievements
+          config_padding: 0, 8 + 10%
+          
+          # 1. Activity & Pulse (Visible: All para captar todo el Technical DNA)
           plugin_activity: yes
           plugin_activity_limit: 5
           plugin_activity_days: 14
           plugin_activity_filter: all
-          plugin_activity_visibility: public
+          plugin_activity_visibility: all
+          plugin_activity_load: 300
           
-          # 2. Languages & Technical DNA (Radar + Statistics)
+          # 2. Languages & Technical DNA
           plugin_languages: yes
-          plugin_languages_indepth: yes
-          plugin_languages_details: bytes, percentage, lines
+          plugin_languages_indepth: no
+          plugin_languages_details: bytes, percentage
           plugin_languages_limit: 8
-          plugin_languages_analysis_timeout: 15
-          plugin_languages_categories: programming
           plugin_languages_sections: most-used
+          plugin_languages_colors: github
           
           # 3. Followup & Engagement
           plugin_followup: yes
           plugin_followup_sections: repositories, user
           
-          # 4. Habits & Patterns (Configuración de alta precisión)
+          # 4. Habits & Patterns (Optimizado para evitar el error 'Unexpected')
           plugin_habits: yes
           plugin_habits_from: 200
           plugin_habits_days: 14
@@ -48,7 +51,7 @@ jobs:
           plugin_habits_charts: yes
           plugin_habits_trim: yes
           
-          # 5. Achievements & Milestones (Blindado para PAT Classic)
+          # 5. Achievements & Milestones (Con soporte de secretos PAT)
           plugin_achievements: yes
           plugin_achievements_display: detailed
           plugin_achievements_threshold: C
@@ -58,11 +61,7 @@ jobs:
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
           
-          # Layout & Style
-          config_order: base.header, isocalendar, languages, activity, habits, followup, achievements
-          config_padding: 0, 8 + 10%
-          
           filename: github-metrics.svg
           output_action: commit
           committer_branch: main
-          committer_message: "chore: gold-standard metrics architecture [skip ci]"
+          committer_message: "chore: final stability architecture for metrics [skip ci]"
