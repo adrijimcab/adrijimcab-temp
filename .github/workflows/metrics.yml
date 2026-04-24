@@ -23,12 +23,13 @@ jobs:
           base: header, activity, community, repositories, metadata
           config_timezone: Europe/Madrid
           
-          # Plugins de nivel Elite
+          # 1. Activity & Pulse
           plugin_activity: yes
           plugin_activity_limit: 7
           plugin_activity_days: 30
           plugin_activity_filter: all
           
+          # 2. Languages & Technical DNA (Radar + Statistics)
           plugin_languages: yes
           plugin_languages_indepth: yes
           plugin_languages_details: bytes, percentage, lines
@@ -40,26 +41,31 @@ jobs:
           plugin_languages_recent_load: 300
           plugin_languages_sections: most-used, recently-used
           
+          # 3. Followup & Engagement
           plugin_followup: yes
           plugin_followup_sections: repositories, user
           
+          # 4. Habits & Patterns
           plugin_habits: yes
           plugin_habits_from: 200
           plugin_habits_days: 14
           plugin_habits_facts: yes
           plugin_habits_charts: yes
           
+          # 5. Achievements & Milestones
           plugin_achievements: yes
           plugin_achievements_display: detailed
           plugin_achievements_threshold: C
           
+          # 6. Global Activity Visualization
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
           
+          # Layout & Style
           config_order: base.header, isocalendar, languages, activity, habits, followup, achievements
           config_padding: 0, 8 + 10%
           
           filename: github-metrics.svg
           output_action: commit
           committer_branch: main
-          committer_message: "chore: update metrics dashboard [skip ci]"
+          committer_message: "chore: optimized architectural metrics workflow [skip ci]"
