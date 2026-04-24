@@ -13,9 +13,9 @@
 
 ---
 
-### 🏆 GitHub Trophies
+### 🏆 GitHub Achievements
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=adrijimcab&theme=radical" alt="adrijimcab trophies" />
+  <img src="https://github.com/adrijimcab/adrijimcab/blob/main/achievements.svg?raw=true" alt="Achievements" width="100%">
 </p>
 
 ---
@@ -45,7 +45,7 @@
 </div>
 
 <p align="center">
-  <img src="https://github.com/adrijimcab/adrijimcab/raw/main/github-metrics.svg" alt="Activity Radar" width="100%">
+  <img src="https://github.com/adrijimcab/adrijimcab/blob/main/github-metrics.svg?raw=true" alt="Activity Radar" width="100%">
 </p>
 
 ---
