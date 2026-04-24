@@ -3,7 +3,7 @@
 <p align="center">
   <b>Contrary to Popular Belief, I Know Exactly What I'm Doing.</b>
   <br>
-  Software Architect | Full Stack Developer | AI Enthusiast
+  Software Architect | Full Stack Developer | AI Enthusiast | FrontEnd Craftsman
 </p>
 
 <p align="center">
