@@ -20,16 +20,14 @@ jobs:
           config_timezone: Europe/Madrid
           config_erronly: yes
           
-          # 1. Activity & Pulse
+          # 1. Activity & Pulse (Blindado: solo eventos públicos para estabilidad)
           plugin_activity: yes
-          plugin_activity_limit: 8
-          plugin_activity_days: 30
+          plugin_activity_limit: 5
+          plugin_activity_days: 14
           plugin_activity_filter: all
           plugin_activity_visibility: public
           
           # 2. Languages & Technical DNA (Radar + Statistics)
-          # Solución DEFINITIVA: Usamos most-used para evitar el crash del motor recent.mjs
-          # El Radar Chart se mantiene gracias a 'indepth' y 'details'.
           plugin_languages: yes
           plugin_languages_indepth: yes
           plugin_languages_details: bytes, percentage, lines
@@ -42,7 +40,7 @@ jobs:
           plugin_followup: yes
           plugin_followup_sections: repositories, user
           
-          # 4. Habits & Patterns
+          # 4. Habits & Patterns (Configuración de alta precisión)
           plugin_habits: yes
           plugin_habits_from: 200
           plugin_habits_days: 14
@@ -50,7 +48,7 @@ jobs:
           plugin_habits_charts: yes
           plugin_habits_trim: yes
           
-          # 5. Achievements & Milestones
+          # 5. Achievements & Milestones (Blindado para PAT Classic)
           plugin_achievements: yes
           plugin_achievements_display: detailed
           plugin_achievements_threshold: C
@@ -67,4 +65,4 @@ jobs:
           filename: github-metrics.svg
           output_action: commit
           committer_branch: main
-          committer_message: "chore: bugfix architectural languages analyzer [skip ci]"
+          committer_message: "chore: gold-standard metrics architecture [skip ci]"
