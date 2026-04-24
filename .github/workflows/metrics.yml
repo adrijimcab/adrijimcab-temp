@@ -9,14 +9,28 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: lowlighter/metrics@latest
+      - name: Metrics Radar
+        uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           user: adrijimcab
           template: classic
           base: header, sections
           filename: github-metrics.svg
-          # IMPORTANTE: Guardamos en el repo actual en la carpeta metrics
+          config_timezone: Europe/Madrid
           output_action: commit
           committer_branch: main
-          committer_message: "chore: update metrics radar"
+      
+      - name: Achievements Medals
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          user: adrijimcab
+          template: classic
+          base: ""
+          filename: achievements.svg
+          plugin_achievements: yes
+          plugin_achievements_display: compact
+          plugin_achievements_threshold: C
+          output_action: commit
+          committer_branch: main
