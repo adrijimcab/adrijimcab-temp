@@ -13,6 +13,25 @@
 
 ---
 
+### 🛡️ Professional Profile
+**FrontEnd Architect / Technical Lead / Senior FrontEnd Developer** with over **9 years of experience**.
+
+Leading the definition, design, and evolution of complex **frontend platforms** and **SPA applications** in high-criticality environments (banking, security, and real-time markets). I specialize in building scalable, maintainable ecosystems strictly aligned with business objectives.
+
+#### **Core Competencies & Strategic Focus:**
+*   **Architecture as a Platform:** Defining domains, strict API contracts, and shared libraries as a critical system with clear boundaries and responsibilities.
+*   **Technical Governance:** Establishing high-quality standards and governance, focusing on debt management and sustainable long-term solutions.
+*   **System Orchestration:** Clear strategies for isolation, communication, and dependency management.
+*   **Scalability & UX:** Developing intuitive, responsive interfaces centered on the user experience.
+*   **Defensive Security:** Designing robust solutions against XSS, CSRF, CORS, and CSP.
+*   **Advanced Patterns:** Expert implementation of **Hexagonal Architecture (Ports & Adapters)** in frontend environments.
+*   **CI/CD & Quality:** Standardizing development across distributed teams through automated pipelines.
+*   **Micro-frontends Expert:** Evaluating trade-offs (Module Federation, Web Components, iFrames) and managing the full lifecycle (versioning, state, and initialization).
+*   **Strategic Collaboration:** Direct partnership with backend architecture and business stakeholders.
+*   **Leadership:** Dedicated to team mentoring and continuous improvement.
+
+---
+
 ### 📊 Real-time Engineering Dashboard
 <p align="center">
   <img src="https://github.com/adrijimcab/adrijimcab/raw/main/github-metrics.svg" alt="Master Dashboard" width="100%">
